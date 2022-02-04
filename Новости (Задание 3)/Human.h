@@ -8,7 +8,11 @@ class Human
 {
 private:
 	string _name;
-	string _gender;
+	enum _gender 
+	{
+		male,
+		female
+	};
 public:
 	Human(string name, string gender);
 	Human();
