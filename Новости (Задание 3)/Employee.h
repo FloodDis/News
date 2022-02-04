@@ -1,10 +1,9 @@
 #pragma once
 #include "Human.h"
 
-class Employee
+class Employee: public Human
 {
 private:
-	Human _person;
 	string _position;
 public:
 	Employee(Human person, string position);
