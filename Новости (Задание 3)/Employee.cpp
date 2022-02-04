@@ -1,17 +1,17 @@
 #include "Employee.h"
 
-Employee::Employee(Human person, string position)
+Employee::Employee(string name, string gender, string position)
 {
-	_person.SetName(person.GetName());
-	_person.SetGender(person.GetGender());
-	_position = position;
+	SetName(name);
+	SetGender(gender);
+	SetPosition(position);
 }
 
 Employee::Employee()
 {
-	_person.SetName("");
-	_person.SetGender("");
-	_position = "";
+	SetName("");
+	SetGender("");
+	SetPosition("");
 }
 
 void Employee::SetPosition(string newPosition)
