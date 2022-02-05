@@ -7,5 +7,5 @@ NewsProgram::NewsProgram(string news)
 
 void NewsProgram::SetNewsProgram(string news)
 {
-	_news.push_back(news);
+	_news.push(news);
 }
