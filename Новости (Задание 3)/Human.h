@@ -4,15 +4,17 @@
 
 using namespace std;
 
+enum Gender
+{
+	male,
+	female
+};
+
 class Human
 {
 private:
 	string _name;
-	enum _gender 
-	{
-		male,
-		female
-	};
+	Gender _gender;
 public:
 	Human(string name, string gender);
 	Human();
