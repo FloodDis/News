@@ -12,6 +12,8 @@ private:
 public:
 	NewsProgram(string news);
 	NewsProgram();
+	void IncreaseNewsCount();
+	void DecreaseNewsCount();
 	void SetNewsProgram(string news);
 	string GetNewsProgram();
 };
