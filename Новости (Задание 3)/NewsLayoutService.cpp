@@ -38,3 +38,8 @@ NewsLayoutService::NewsLayoutService(string name, Gender gender, string position
 	Employee(name, gender, position);
 	NewsProgram(news);
 }
+
+NewsProgram NewsLayoutService::GiveOutNewsProgram()
+{
+	return _newsList
+}
