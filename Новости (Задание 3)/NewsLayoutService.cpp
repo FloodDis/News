@@ -23,6 +23,7 @@ void NewsLayoutService::SetNewsProgram()
 		for (int j = i; j > 0 && bufferSize[j - 1] > bufferSize[j]; j--)
 		{
 			swap(bufferSize[j - 1], bufferSize[j]);
+			swap(buffer[j - 1], buffer[j]);
 		}
 	}
 }
