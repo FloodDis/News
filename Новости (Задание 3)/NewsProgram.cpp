@@ -3,6 +3,7 @@
 NewsProgram::NewsProgram(string news)
 {
 	_news.push(news);
+	_newsCount++;
 }
 
 NewsProgram::NewsProgram()
