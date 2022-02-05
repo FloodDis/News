@@ -8,6 +8,6 @@ private:
 	string _currentArticle;
 public:
 	NewsAgency();
-	string GetPeaceOfNews();
-	void SetPeaceOfNews(string newPeaceOfNews);
+	string GetArticle();
+	void SetArticle(string newPeaceOfNews);
 };

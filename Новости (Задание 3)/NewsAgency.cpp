@@ -3,15 +3,15 @@
 NewsAgency::NewsAgency()
 {
 	Employee();
-	_currentPeaceOfNews = "";
+	_currentArticle = "";
 }
 
-void NewsAgency::SetPeaceOfNews(string newPeaceOfNews)
+void NewsAgency::SetArticle(string newPeaceOfNews)
 {
-	_currentPeaceOfNews = newPeaceOfNews;
+	_currentArticle = newPeaceOfNews;
 }
 
-string NewsAgency::GetPeaceOfNews()
+string NewsAgency::GetArticle()
 {
-	return _currentPeaceOfNews;
+	return _currentArticle;
 }
