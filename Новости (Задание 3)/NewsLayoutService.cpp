@@ -42,5 +42,5 @@ NewsLayoutService::NewsLayoutService(string name, Gender gender, string position
 
 NewsProgram NewsLayoutService::GiveOutNewsProgram()
 {
-	return _newsList
+	return _newsList;
 }
