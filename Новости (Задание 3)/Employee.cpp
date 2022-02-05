@@ -1,6 +1,6 @@
 #include "Employee.h"
 
-Employee::Employee(string name, string gender, string position)
+Employee::Employee(string name, Gender gender, string position)
 {
 	SetName(name);
 	SetGender(gender);
@@ -10,7 +10,7 @@ Employee::Employee(string name, string gender, string position)
 Employee::Employee()
 {
 	SetName("");
-	SetGender("");
+	SetGender(male);
 	SetPosition("");
 }
 
