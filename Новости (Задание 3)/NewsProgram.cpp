@@ -14,20 +14,12 @@ NewsProgram::NewsProgram()
 void NewsProgram::SetNewsProgram(string news)
 {
 	_news.push(news);
+	_newsCount++;
 }
 
 string NewsProgram::GetNewsProgram()
 {
 	_news.front();
 	_news.pop();
-}
-
-void NewsProgram::IncreaseNewsCount()
-{
-	_newsCount++;
-}
-
-void NewsProgram::DecreaseNewsCount()
-{
 	_newsCount--;
 }
