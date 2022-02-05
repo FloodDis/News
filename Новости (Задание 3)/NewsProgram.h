@@ -8,6 +8,7 @@ class NewsProgram
 {
 private:
 	queue <string> _news;
+	int _newsCount;
 public:
 	NewsProgram(string news);
 	NewsProgram();
