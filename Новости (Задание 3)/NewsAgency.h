@@ -5,7 +5,7 @@ class NewsAgency
 {
 private:
 	Employee _seniorManager;
-	string _currentPeaceOfNews;
+	string _currentArticle;
 public:
 	NewsAgency();
 	string GetPeaceOfNews();
