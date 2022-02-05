@@ -21,3 +21,13 @@ string NewsProgram::GetNewsProgram()
 	_news.front();
 	_news.pop();
 }
+
+void NewsProgram::IncreaseNewsCount()
+{
+	_newsCount++;
+}
+
+void NewsProgram::DecreaseNewsCount()
+{
+	_newsCount--;
+}
