@@ -10,6 +10,6 @@ private:
 public:
 	NewsLayoutService();
 	NewsLayoutService(string name, Gender gender, string position, string news);
-	void SetNewsProgram(int newsCount);
+	void SetNewsProgram();
 	string GiveOutNewsProgram();
 };

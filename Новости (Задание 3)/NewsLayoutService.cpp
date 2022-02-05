@@ -1,7 +1,8 @@
 #include "NewsLayoutService.h"
 
-void NewsLayoutService::SetNewsProgram(int newsCount)
+void NewsLayoutService::SetNewsProgram()
 {
+	int newsCount = _newsList.GetNewsCount();
 	string* buffer=new string[newsCount];
 	int* bufferSize = new int[newsCount];
 	for (int i = 0; i < newsCount; i++)
