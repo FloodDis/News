@@ -27,7 +27,7 @@ void Human::SetName(string newName)
 	_name = newName;
 }
 
-void Human::SetGender(string newGender)
+void Human::SetGender(Gender newGender)
 {
 	_gender = newGender;
 }

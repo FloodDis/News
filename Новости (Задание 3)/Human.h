@@ -21,5 +21,5 @@ public:
 	string GetName();
 	string GetGender();
 	void SetName(string newName);
-	void SetGender(string newGender);
+	void SetGender(Gender newGender);
 };
