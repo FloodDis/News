@@ -17,7 +17,7 @@ string Human::GetName()
 	return _name;
 }
 
-string Human::GetGender()
+Gender Human::GetGender()
 {
 	return _gender;
 }

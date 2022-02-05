@@ -19,7 +19,7 @@ public:
 	Human(string name, Gender gender);
 	Human();
 	string GetName();
-	string GetGender();
+	Gender GetGender();
 	void SetName(string newName);
 	void SetGender(Gender newGender);
 };
