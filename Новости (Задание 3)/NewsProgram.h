@@ -14,4 +14,5 @@ public:
 	NewsProgram();
 	void SetNewsProgram(string news);
 	string GetNewsProgram();
+	int GetNewsCount();
 };

@@ -23,3 +23,8 @@ string NewsProgram::GetNewsProgram()
 	_news.pop();
 	_newsCount--;
 }
+
+int NewsProgram::GetNewsCount()
+{
+	return _newsCount;
+}
