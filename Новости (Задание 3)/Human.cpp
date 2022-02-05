@@ -1,6 +1,6 @@
 #include "Human.h"
 
-Human::Human(string name, string gender)
+Human::Human(string name, Gender gender)
 {
 	_name = name;
 	_gender = gender;
@@ -9,7 +9,7 @@ Human::Human(string name, string gender)
 Human::Human()
 {
 	_name = "";
-	_gender = "";
+	_gender = male;
 }
 
 string Human::GetName()

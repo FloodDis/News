@@ -16,7 +16,7 @@ private:
 	string _name;
 	Gender _gender;
 public:
-	Human(string name, string gender);
+	Human(string name, Gender gender);
 	Human();
 	string GetName();
 	string GetGender();
