@@ -10,6 +10,7 @@ private:
 	queue <string> _news;
 public:
 	NewsProgram(string news);
+	NewsProgram();
 	void SetNewsProgram(string news);
 	string GetNewsProgram();
 };

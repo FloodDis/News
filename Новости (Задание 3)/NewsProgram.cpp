@@ -5,6 +5,11 @@ NewsProgram::NewsProgram(string news)
 	_news.push(news);
 }
 
+NewsProgram::NewsProgram()
+{
+
+}
+
 void NewsProgram::SetNewsProgram(string news)
 {
 	_news.push(news);
