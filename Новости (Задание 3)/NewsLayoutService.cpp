@@ -8,3 +8,15 @@ void NewsLayoutService::SetNewsProgram(int newsCount)
 
 	}
 }
+
+NewsLayoutService::NewsLayoutService()
+{
+	Employee();
+	NewsProgram();
+}
+
+NewsLayoutService::NewsLayoutService(string name, Gender gender, string position, string news)
+{
+	Employee(name, gender, position);
+	NewsProgram(news);
+}
