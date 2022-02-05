@@ -1,5 +1,6 @@
 #pragma once
 #include "Employee.h"
+#include "NewsProgram.h"
 
 class NewsLayoutService
 {
