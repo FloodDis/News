@@ -11,5 +11,5 @@ public:
 	NewsLayoutService();
 	NewsLayoutService(string name, Gender gender, string position, string news);
 	void SetNewsProgram();
-	NewsProgram GiveOutNewsProgram();
+	string GetNewsFromNewsProgram();
 };

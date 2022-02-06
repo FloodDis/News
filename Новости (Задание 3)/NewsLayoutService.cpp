@@ -40,7 +40,9 @@ NewsLayoutService::NewsLayoutService(string name, Gender gender, string position
 	NewsProgram(news);
 }
 
-NewsProgram NewsLayoutService::GiveOutNewsProgram()
+string NewsLayoutService::GetNewsFromNewsProgram()
 {
-	return _newsList;
+	string answer;
+	answer = _newsList.GetNewsProgram();
+	return answer;
 }
