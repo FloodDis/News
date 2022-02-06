@@ -19,9 +19,10 @@ void NewsProgram::SetNewsProgram(string news)
 
 string NewsProgram::GetNewsProgram()
 {
-	_news.front();
+	string answer = _news.front();
 	_news.pop();
 	_newsCount--;
+	return answer;
 }
 
 int NewsProgram::GetNewsCount()
